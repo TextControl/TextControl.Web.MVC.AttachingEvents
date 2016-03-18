@@ -1,0 +1,579 @@
+﻿/* ******************************************* */
+/* CSS Styles for RibbonBar of Web.TextControl */
+/* ******************************************* */
+
+/* All ribbon tabs, groups and buttons are visible by default. */
+/* Simply uncomment the CSS property 'display' to hide the complete tab, the group or a single button. */
+
+/* FILE MENU */
+
+#tabFile {
+    /*display: none !important;*/
+}
+
+    #fileMnuItemNew {
+        display: none !important;
+    }
+
+    #fileMnuItemOpen {
+        display: none !important;
+    }
+
+    #fileMnuItemSave {
+        /*display: none !important;*/
+        opacity: 1 !important;
+    }
+
+        #fileMnuItemSave:hover {
+            /*display: none !important;*/
+            background-color: rgba(255,192,0,0.7);
+            cursor: pointer !important;
+        }
+
+        #fileMnuItemSave a:hover {
+            cursor: pointer !important;
+        }
+
+    #fileMnuItemSaveAs {
+        display: none !important;
+    }
+
+    #fileMnuItemPrintToPDF {
+        display: none !important;
+    }
+
+    #fileMnuItemOptions {
+        display: none !important;
+    }
+
+
+/* RIBBON TAB: HOME */
+
+#ribbonTabHome,
+#tabDefault {
+    /*display: none !important;*/
+}
+
+    /* Clipboard Group */
+
+    #ribbonGroupClipboard {
+        /*display: none !important;*/
+    }
+
+        #btnPaste {
+            /*display: none !important;*/
+        }
+
+        #btnCut {
+            /*display: none !important;*/
+        }
+
+        #btnCopy {
+            /*display: none !important;*/
+        }
+
+
+    /* Font Group */
+
+    #ribbonGroupFont {
+        /*display: none !important;*/
+    }
+
+        #selectFont {
+            /*display: none !important;*/
+        }
+
+        #selectFontSize {
+            /*display: none !important;*/
+        }
+
+        #btnFontGrow {
+            /*display: none !important;*/
+        }
+
+        #btnFontShrink {
+            /*display: none !important;*/
+        }
+
+        #tglBtnBold {
+            /*display: none !important;*/
+        }
+
+        #tglBtnItalic {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnUnderlineStyles {
+            /*display: none !important;*/
+        }
+
+            #mnuItmULStyleSingle {
+                /*display: none !important;*/
+            }
+
+            #mnuItmULStyleDoubled {
+                /*display: none !important;*/
+            } 
+
+            #mnuItmULStyleSingleWO {
+                /*display: none !important;*/
+            } 
+
+            #mnuItmULStyleDoubledWO {
+                /*display: none !important;*/
+            } 
+
+        #tglBtnStrikethrough {
+            /*display: none !important;*/
+        }
+
+        #tglBtnSubscript {
+            /*display: none !important;*/
+        }
+        
+        #tglBtnSuperscript {
+            /*display: none !important;*/
+        }
+
+        #btnHighlightColor {
+            /*display: none !important;*/
+        }
+        
+        #btnFontColor {
+            /*display: none !important;*/
+        }
+
+        #btnCharacterSettings {
+            /*display: none !important;*/
+        }
+
+        #btnHighlightColor {
+            /*display: none !important;*/
+        }
+
+
+
+    /* Paragraph Group */
+
+    #ribbonGroupParagraph {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnBulletList {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnNumberedList {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnStructuredList {
+            /*display: none !important;*/
+        }
+
+        #btnIndentDecrease {
+            /*display: none !important;*/
+        }
+
+        #btnIndentIncrease {
+            /*display: none !important;*/
+        }
+
+        #tglBtnTextDirLTR {
+            /*display: none !important;*/
+        }
+
+        #tglBtnTextDirRTL {
+            /*display: none !important;*/
+        }
+
+        #btnTabs {
+            /*display: none !important;*/
+        }
+
+        #tglBtnControlChars {
+            /*display: none !important;*/
+        }
+
+        #tglBtnAlignLeft {
+            /*display: none !important;*/
+        }
+
+        #tglBtnAlignCenter {
+            /*display: none !important;*/
+        }
+
+        #tglBtnAlignRight {
+            /*display: none !important;*/
+        }
+
+        #tglBtnAlignJust {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnLineSpacing {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnBorders {
+            /*display: none !important;*/
+        }
+
+            #mnuItemBorderLeft {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderTop {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderRight {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderBottom {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderOutside {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderAll {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderInsideHor {
+                /*display: none !important;*/
+            }
+
+            #mnuItemBorderInsideVert {
+                /*display: none !important;*/
+            }
+
+        #btnParSettings {
+            /*display: none !important;*/
+        }
+
+        #tglBtnAlignJust {
+            /*display: none !important;*/
+        }
+
+
+    /* Styles Group */
+
+    #ribbonGroupStyles {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnStyles {
+            /*display: none !important;*/
+        }
+
+    /* EditingGroup */
+
+    #ribbonGroupEditing {
+        /*display: none !important;*/
+    }
+
+        #btnUndo {
+            /*display: none !important;*/
+        }
+
+        #btnRedo {
+            /*display: none !important;*/
+        }
+
+        #btnFind {
+            /*display: none !important;*/
+        }
+
+        #btnReplace {
+            /*display: none !important;*/
+        }
+
+
+/* RIBBON TAB: INSERT */
+
+#tabInsert {
+    /*display: none !important;*/
+}
+
+    /* Pages Group */
+
+    #ribbonGroupPages {
+        /*display: none !important;*/
+    }
+
+        #btnBlankPage {
+            /*display: none !important;*/
+        }
+
+        #btnPageBreak {
+            /*display: none !important;*/
+        }
+
+    /* Tables Group */    
+
+    #ribbonGroupTables {
+        /*display: none !important;*/
+    }
+
+        #btnInsertTable {
+            /*display: none !important;*/
+        }
+
+
+    /* Illustrations Group */
+
+    #ribbonGroupIllustrations {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertImage {
+            /*display: none !important;*/
+        }
+
+            #mnuItemInsertImage {
+                /*display: none !important;*/
+            }
+
+            #mnuItemInsertImagePlacehld {
+                /*display: none !important;*/
+            }
+
+        #btnInsertChart {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnInsertBarcode {
+            /*display: none !important;*/
+        }
+
+    /* Links Group */
+        
+    #ribbonGroupLinks {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertHyperlink {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnInsertBookmark {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnInsertBarcode {
+            /*display: none !important;*/
+        }
+
+    /* Headers and Footers Group */
+        
+    #ribbonGroupHEadersAndFooters {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertHeader {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnInsertFooter {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnInsertPageNum {
+            /*display: none !important;*/
+        }
+
+    /* Text Group */
+
+    #ribbonGroupText {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertTextFrame {
+            /*display: none !important;*/
+        }
+
+        #btnInsertFile {
+            /*display: none !important;*/
+        }
+
+    /* Symbols Group */
+
+    #ribbonGroupSymbols {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertSymbol {
+            /*display: none !important;*/
+        }
+
+
+/* RIBBON TAB: PAGE LAYOUT */
+
+#tabPageLayout {
+    /*display: none !important;*/
+}
+
+    /* Page Setup Group */
+
+    #ribbonGroupPageSetup {
+        /*display: none !important;*/
+    }
+
+        #btnPageSettings {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnPageOrientation {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnPageColumns {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnPageBreaks {
+            /*display: none !important;*/
+        }
+
+        #btnsPageBorders {
+            /*display: none !important;*/
+        }
+
+/* RIBBON TAB: MAILINGS */
+
+#tabMailings {
+    /*display: none !important;*/
+}
+
+    /* Data Source Group */
+
+    #ribbonGroupDataSource {
+        /*display: none !important;*/
+    }
+        #btnLoadDBScheme {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnSelectMasterTable {
+            /*display: none !important;*/
+        }
+
+        #btnEditDataRelations {
+            /*display: none !important;*/
+        }
+
+    /* Merge Fields Group */
+
+    #ribbonGroupMergeField {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertMergeField {
+            /*display: none !important;*/
+        }
+
+        #drpDnBtnInsertSpecialField {
+            /*display: none !important;*/
+        }
+
+        #btnFieldProperties {
+            /*display: none !important;*/
+        }
+
+        #btnDeleteField {
+            /*display: none !important;*/
+        }
+
+    /* Merge Block Group */
+
+    #ribbonGroupMergeBlock {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnInsertMergeBlock {
+            /*display: none !important;*/
+        }
+
+        #btnEditMergeBlocks {
+            /*display: none !important;*/
+        }
+
+    /* View Group */
+
+    #ribbonGroupView {
+        /*display: none !important;*/
+    }
+
+        #tglBtnHighlightMergeFields {
+            /*display: none !important;*/
+        }
+
+        #tglBtnShowFieldCodes {
+            /*display: none !important;*/
+        }
+
+        #tglBtnShowFieldText {
+            /*display: none !important;*/
+        }
+
+    /* Mail Merge Preview Group */
+
+    #ribbonGroupMailMergePreview {
+        /*display: none !important;*/
+    }
+
+        #tglBtnPreviewMergeResults {
+            /*display: none !important;*/
+        }
+
+    /* Mail Merge Finish Group */
+
+    #ribbonGroupMailMergeFinish {
+        /*display: none !important;*/
+    }
+
+        #btnFinishAndMerge {
+            /*display: none !important;*/
+        }
+
+/* RIBBON TAB: VIEW */
+
+#tabView {
+    /*display: none !important;*/
+}
+
+    /* Zoom Group */
+
+    #ribbonGroupZoom {
+        /*display: none !important;*/
+    }
+
+        #drpDnBtnZoom {
+            /*display: none !important;*/
+        }
+
+    /* Proofing Group */
+
+    #ribbonGroupProofing {
+        /*display: none !important;*/
+    }
+
+        #tglBtnEnableSpellCheck {
+            /*display: none !important;*/
+        }
+
+        #tglBtnEnableLangDetect {
+            /*display: none !important;*/
+        }
+
+        #tglBtnEnableHyphenation {
+            /*display: none !important;*/
+        }
+
+        #btnSetLanguage {
+            /*display: none !important;*/
+        }

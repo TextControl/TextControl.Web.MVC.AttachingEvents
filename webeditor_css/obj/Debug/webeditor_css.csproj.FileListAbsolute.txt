@@ -1,0 +1,9 @@
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\bin\webeditor_css.dll.config
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\bin\webeditor_css.dll
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\bin\webeditor_css.pdb
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\bin\TXTextControl.Web.dll
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\obj\Debug\webeditor_css.csprojResolveAssemblyReference.cache
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\obj\Debug\webeditor_css.index.resources
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\obj\Debug\webeditor_css.csproj.GenerateResource.Cache
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\obj\Debug\webeditor_css.dll
+C:\Users\Gunnar\Git\Github\TextControl.Web.MVC.AttachingEvents\webeditor_css\obj\Debug\webeditor_css.pdb
