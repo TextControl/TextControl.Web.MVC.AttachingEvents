@@ -56,9 +56,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="TXTextControl.Web, Version=23.0.300.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXTextControl.Web, Version=30.0.1100.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 23.0.NET Server for ASP.NET\Assembly\TXTextControl.Web.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 31.0.NET Server for ASP.NET\Assembly\TXTextControl.Web.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
