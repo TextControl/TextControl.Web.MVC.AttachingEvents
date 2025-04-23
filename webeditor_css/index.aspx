@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="webeditor_css.index" %>
 
-<%@ Register assembly="TXTextControl.Web, Version=31.0.1100.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" namespace="TXTextControl.Web" tagprefix="cc1" %>
+<%@ Register assembly="TXTextControl.Web, Version=33.0.1300.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" namespace="TXTextControl.Web" tagprefix="cc1" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
 <head runat="server">
     <title></title>
     <link href="textcontrol_styles.css" rel="stylesheet" />
-    <script src="Scripts/jquery-2.1.1.js"></script>
+    <script src="Scripts/jquery-3.7.1.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
